@@ -1,0 +1,12 @@
+#grid-container {
+    display: grid;
+    height: 400px;
+    width: 400px;
+
+}
+
+.grid-space {
+    background: blue;
+    height: 20px;
+    width: 20px;
+}
