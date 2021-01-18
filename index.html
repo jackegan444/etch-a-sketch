@@ -8,7 +8,25 @@
 </head>
 
 <body>
+    <h1>Etch-a-Sketch</h1>
+    <div>
+        <label for="size-input">Squares per Side</label>
+        <input type="number" id="size-input" name="size-input" value="16" size="1" min="5">
+        <input type="submit" id="size-btn" value="Change Size">
+    </div>
     <div id="grid-container"></div>
+    <div>
+        <p>Pen color:</p>
+        <input type="submit" class="color-button" data-color="black" value="">
+        <input type="submit" class="color-button" data-color="red" value="">
+        <input type="submit" class="color-button" data-color="orange" value="">
+        <input type="submit" class="color-button" data-color="yellow" value="">
+        <input type="submit" class="color-button" data-color="green" value="">
+        <input type="submit" class="color-button" data-color="blue" value="">
+        <input type="submit" class="color-button" data-color="indigo" value="">
+        <input type="submit" class="color-button" data-color="violet" value="">
+        <input type="submit" data-color="rainbow" value="Rainbow">
+    </div>
 </body>
 <script src="script.js"></script>
 
